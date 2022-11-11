@@ -5,6 +5,7 @@ import Image from '/Users/josiahcastillo/Desktop/small_projects/news_homepage_re
 const Container = styled.div`
     display: flex;
     justify-content: space-between;
+    margin-bottom: -100px;
     
 `;
 
