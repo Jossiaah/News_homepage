@@ -5,7 +5,7 @@ import Image from '/Users/josiahcastillo/Desktop/small_projects/news_homepage_re
 const Container = styled.div`
     display: flex;
     justify-content: space-between;
-    margin-bottom: -100px;
+    margin-bottom: -120px;
     
 `;
 
@@ -35,6 +35,11 @@ const Section1 = styled.div`
     h3 {
         font-weight: 300;
         margin-bottom: .5rem;
+
+        &:hover {
+            color: #E9AA52;
+            cursor: pointer;
+        }
     }
 
     p {
@@ -55,6 +60,11 @@ const Section2 = styled.div`
     h3 {
         font-weight: 300;
         margin-bottom: .5rem;
+
+        &:hover {
+            color: #E9AA52;
+            cursor: pointer;
+        }
     }
 
     p {
@@ -75,6 +85,11 @@ const Section3 = styled.div`
         font-weight: 300;
         margin-bottom: .5rem;
         margin-top: 1.5rem;
+
+        &:hover {
+            color: #E9AA52;
+            cursor: pointer;
+        }
     }
 
     p {

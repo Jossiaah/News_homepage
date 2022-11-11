@@ -5,7 +5,8 @@ import MyImage from '/Users/josiahcastillo/Desktop/small_projects/news_homepage_
 
 const Container = styled.div`
     padding: 80px 150px 50px;
-    margin-top: 2rem;
+    margin-top: 5rem;
+    padding-top: 0px;
 `;
 const Nav = styled.div`
     display: flex;
@@ -22,9 +23,13 @@ const Wrapper = styled.div`
 const NavLinks = styled.div`
     margin-left: 35px;
     margin-top: 1rem;
-    cursor: pointer;
     font-weight: 100;
     color: #5E607A ;
+    
+    &:hover {
+        color: #E9AA52;
+        cursor: pointer;
+    }
 `;
 
 const Header = () => {
